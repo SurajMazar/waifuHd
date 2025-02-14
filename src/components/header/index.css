@@ -1,0 +1,10 @@
+.logo-wrapper {
+  @apply flex items-center cursor-pointer;
+  &:hover .logo {
+    @apply rotate-y-[180deg];
+  }
+}
+
+.logo {
+  @apply transition duration-1000;
+}
